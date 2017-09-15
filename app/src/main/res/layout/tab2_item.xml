@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#fff"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    android:id="@+id/tab2_item_parent_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:background="#ad9c9a9a"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+       <LinearLayout
+           android:visibility="gone"
+           android:id="@+id/tab2_item_on_edit"
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/tab2_item_medicine_name"
+            android:hint="Medicine name "
+            android:textSize="16dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/tab2_item_dose"
+            android:hint="Dose frequency (daily / weekly)  "
+            android:textSize="16dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/tab2_item_quantity"
+            android:hint="Quantity (of medicine at a time)  "
+            android:textSize="16dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/tab2_item_number_per_day"
+            android:hint="Number of dose per day "
+            android:textSize="16dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+           <Button
+               android:id="@+id/tab2_item_update_btn"
+               android:textAllCaps="false"
+               android:textSize="16dp"
+               android:text="Update"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content" />
+       </LinearLayout>
+        <TextView
+            android:layout_margin="5dp"
+            android:id="@+id/medicine_name_txt"
+            android:text="Medicine name "
+            android:textSize="16dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</LinearLayout>
